@@ -66,5 +66,6 @@ Luka(24.5.2018)
  	-POPRAVLJENA VERZIJA V DISCORDU -> ProjektAPI(24.5.2018)_POPRAVLJENO
 Tadeja(4.11.2018)
     -gitLab
-Filip(4.11.2018:
+Filip(4.11.2018)
     -gitLab test
+    -test branch
