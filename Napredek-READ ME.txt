@@ -69,3 +69,5 @@ Tadeja(4.11.2018)
 Filip(4.11.2018)
     -gitLab test
     -test branch
+Luka(4.11.2018)
+    -gitLab
