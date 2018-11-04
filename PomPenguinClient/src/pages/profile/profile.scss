@@ -1,0 +1,56 @@
+page-profile {
+	#naslov{
+		padding-bottom: 10px;
+		color:white;
+		font-size: 40px;
+		font-family: chewy;
+	}
+	.fixed-content{
+		background-color: white;
+	}
+	.prviNaslov{
+		padding-top: 20px;
+	}
+	.napis
+	{
+		font-size: 20px;
+		font-family:pisavaGumbi;
+	}
+	.cardHeader
+	{
+		font-size: 20px;
+		color:#80bfff;
+		float:left;
+	}
+	.username
+	{
+		font-family:pisavaGumbi;
+		font-size: 20px;
+		float:left;
+	}
+
+	.left{
+		float:left;
+	}
+	.whiteText{
+		font-family:pisavaGumbi;
+		font-size: 20px;
+		float:left;
+		color:white;
+	}
+	.logoutBtn
+	{
+		float:right;
+		margin:0px;
+	}
+
+	.penguinCard
+	{
+		margin-top: 30px;
+	}
+	.playBtn{
+		margin-top: 35px;
+		width: 95%;
+	}
+
+}

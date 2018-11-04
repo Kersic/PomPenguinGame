@@ -1,0 +1,89 @@
+page-shop-penguin {
+	#naslov{
+		padding-bottom: 50px;
+		color:#80bfff;
+		font-size: 40px;
+		font-family: chewy;
+	}
+	.fixed-content {
+   		background: white;
+    }
+    .beliNapis2{
+		color:white;
+		font-family: chewy;
+		font-size: 25px;
+		padding-right: 80px;
+	}
+	.errorMesage
+	{
+		color:#80bfff;
+		font-family:pisavaGumbi;
+		font-weight: bold;
+		text-transform: none;
+	}
+    .napisGumba{
+		color:white;
+		font-size: 23px;
+		font-family:pisavaGumbi;
+		font-weight: bold;
+		text-transform: none;
+	}
+	.ion-toolbar{
+		padding: 55px;
+	}
+	.gumbShopMenu{
+		width: 50px;
+	}
+	.coins {
+		font-weight: bold;
+		color:white;
+	     line-height: 12px;
+	     font-size: 15px;
+	     font-family: pisavaGumbi;
+	     margin-top: 21px;
+	     margin-right: 10px;
+	     position:absolute;
+	     top:0;
+	     right:0;
+ 	}
+ 	ion-content{
+ 		font-family: pisavaGumbi;
+
+ 	}
+    pre
+ 	{
+ 		font-family: pisavaGumbi;
+ 	}
+ 	.prviNaslov{
+ 		padding-top:10px;
+ 	}
+ 	.LevelNumber{
+ 		font-size:	100px;
+ 		color:#80bfff;
+		font-family: chewy;
+ 	}
+ 	.buyBtn{
+ 		margin-top:20px;
+ 	 	width: 250px;
+ 	 	text-transform: none;
+ 	 	background-color:#80bfff;
+ 	}
+ 	.buyUpgradeBtn
+ 	{
+ 		margin-top:60px;
+ 	 	width: 250px;
+ 	 	text-transform: none;
+ 	 	background-color:#80bfff;
+ 	}
+ 	.buttonPadding
+ 	{
+	    
+	     padding-left: 50px;
+	    
+ 	}
+ 	.coinsColorWhite{
+ 		color: white;
+ 	}
+ 	.coinsColorRed{
+ 		color: red;
+ 	}}

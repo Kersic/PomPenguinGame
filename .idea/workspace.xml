@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09e6f241-75d8-41b7-b0e3-058c83e243a0" name="Default Changelist" comment="move to gitLab" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="138889679">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="51" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PomPenguinServer/Napredek-READ ME.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/PomPenguinClient/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/PomPenguinClient/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/android-versions/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/base64-js/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/big-integer/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/bplist-parser/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/cordova-common/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/cordova-registry-mapper/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/elementtree/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/plist/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/properties-parser/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/shelljs/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/unorm/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/xmlbuilder/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/android/cordova/node_modules/xmldom/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/base64-js/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/big-integer/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/bplist-parser/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/compressible/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/compression/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/cordova-common/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/cordova-registry-mapper/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/cordova-serve/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/elementtree/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/http-errors/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/on-headers/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/open/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/plist/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/shelljs/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/unorm/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/xmlbuilder/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/platforms/browser/cordova/node_modules/xmldom/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-advanced-http/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-device/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-device/tests/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-file/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-file/tests/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-http/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-ionic-keyboard/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-ionic-webview/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-screen-orientation/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-screen-orientation/tests/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-splashscreen/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-splashscreen/tests/ios/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-splashscreen/tests/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-vibration/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-vibration/tests/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/cordova-plugin-whitelist/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/es6-promise-plugin/package.json" />
+      <path value="$PROJECT_DIR$/PomPenguinClient/plugins/onesignal-cordova-plugin/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="530" />
+    <option name="y" value="160" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PomPenguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PomPenguin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PomPenguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PomPenguin" type="462c0819:PsiDirectoryNode" />
+              <item name="PomPenguinClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="excluded.www.directory" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09e6f241-75d8-41b7-b0e3-058c83e243a0" name="Default Changelist" comment="" />
+      <created>1541359826348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541359826348</updated>
+      <workItem from="1541359827700" duration="415000" />
+      <workItem from="1541360264382" duration="214000" />
+      <workItem from="1541360491286" duration="555000" />
+      <workItem from="1541361129988" duration="146000" />
+      <workItem from="1541361290833" duration="121000" />
+      <workItem from="1541361482566" duration="100000" />
+    </task>
+    <task id="LOCAL-00001" summary="move to gitLab">
+      <created>1541360916866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541360916866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="move to gitLab">
+      <created>1541361176407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541361176407</updated>
+    </task>
+    <task id="LOCAL-00003" summary="move to gitLab">
+      <created>1541361347336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541361347336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1551000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.57304966" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="move to gitLab" />
+    <option name="LAST_COMMIT_MESSAGE" value="move to gitLab" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PomPenguinServer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PomPenguinServer/Napredek-READ ME.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

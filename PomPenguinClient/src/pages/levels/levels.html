@@ -1,0 +1,20 @@
+<ion-header >
+  <ion-navbar text-center>
+    <ion-title>
+    	<p class="beliNapis">Levels</p>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content text-center >
+
+	<ion-list id="levelsList">
+  		<button ion-item *ngFor="let level of levels" (click)="itemSelected(level)">
+	    	<p class="levelName">{{ level.name}}</p>
+	    
+	    	<ion-icon class="ikona" item-right name="ios-snow-outline" ><p class="procent">{{level.h1}}%</p></ion-icon>
+	    	<ion-icon class="ikona" item-right name="ios-water-outline"><p class="procent">{{level.h2}}%</p></ion-icon>
+	    	<ion-icon class="ikona" item-right name="ios-cube-outline"><p class="procent">{{level.h3}}%</p></ion-icon>
+	  	</button> 
+	</ion-list>
+</ion-content>

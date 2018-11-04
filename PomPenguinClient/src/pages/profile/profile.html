@@ -1,0 +1,51 @@
+<<ion-header >
+  <ion-navbar text-center>
+    <ion-title >
+     	<h4 id="naslov">Penguin Triathlon</h4>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content text-center padding>
+
+	<ion-card>
+    	<ion-card-header>
+	    	<p class="cardHeader">User:</p><p class="whiteText">____</p><p class="username">{{username}}</p>
+	    	<button (click)="Logout()" class="logoutBtn" color="customBlue"clear round ion-button>Logout</button>
+	  	</ion-card-header>
+ 	</ion-card>
+
+	<ion-card class="penguinCard">
+	  <ion-card-header>
+	    <p class="cardHeader">Current penguin:<p>
+	  </ion-card-header>
+	    <ion-card-content>
+			<div class="left"  style="display:inline-block;">
+				<ion-list>
+		   			<ion-item class="itemText">Name: {{penguinName}}</ion-item>
+		   			<ion-item class="small">Water: {{finalWater}}</ion-item>
+		   			<ion-item class="small">Snow: {{finalSnow}}</ion-item>
+		   			<ion-item class="small">Ice: {{finalIce}}</ion-item>
+		   			
+		   		</ion-list>
+			</div>
+			<div style="display:inline-block;">	      
+		      <img *ngIf="color =='gray'" src="./img/penguinSiv.png" style="height:130px; margin-left: 10px; width:130px">
+		      <img *ngIf="color =='blue'" src="./img/penguinModer.png" style="height:130px; margin-left: 10px; width:130px">
+		      <img *ngIf="color =='red'" src="./img/penguinRdec.png" style="height:130px; margin-left: 10px; width:130px">
+		      <img *ngIf="color =='yellow'" src="./img/penguinRumen.png" style="height:130px; margin-left: 10px; width:130px">
+		      <img *ngIf="color =='purple'" src="./img/penguinVijolicen.png" style="height:130px; margin-left: 10px; width:130px">
+		      <img *ngIf="color =='orange'" src="./img/penguinOranzen.png" style="height:130px; margin-left: 10px; width:130px">
+		      <img *ngIf="color =='green'" src="./img/penguinZelen.png" style="height:130px; margin-left: 10px; width:130px">
+		      <img *ngIf="color =='pink'" src="./img/penguinRoza.png" style="height:130px; margin-left: 10px; width:130px">
+		    </div>
+		</ion-card-content>
+    </ion-card>
+
+    
+    	<button class="playBtn" color="customBlue" ion-button round large>Play
+    	</button>
+ 	
+
+    
+</ion-content>

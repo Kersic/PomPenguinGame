@@ -1,0 +1,63 @@
+page-statistics {
+	#naslov{
+		padding-bottom: 50px;
+		color:white;
+		font-size: 40px;
+		font-family: chewy;
+	}
+	.fixed-content{
+		/*background-color:white;*/
+	}
+	.slidesDiv{
+		margin-top: 50px;
+	}
+	.buttonsRow
+	{
+		display: inline-block;
+		white-space: nowrap;
+		scroll-zoom-wrapper: true;
+	}
+	ion-scroll {
+        min-height: 60px; 
+	}
+	ion-navbar
+	{
+		/*height: 10px;*/
+	}
+	#neoznacen{
+		color:white;
+	}
+	#oznacen{
+		color:white;
+		text-decoration: underline;
+	}
+	.beliNapis{
+		margin-top: 40px;
+		padding-right: 50px;
+	}
+	.scroolbarDiv{
+		
+	}
+	.scrollClass{
+		background-color: #80bfff;
+	}
+	.cardHeader
+	{
+		font-size: 20px;
+		color:#80bfff;
+		float:left;
+		font-family: pisavaGumbi;
+	}
+	.listContent{
+		font-size: 18px;
+		font-family: pisavaGumbi;
+	}
+	::-webkit-scrollbar,
+	*::-webkit-scrollbar {
+	  visibility: hidden;
+	  height: 1em;
+	  width: 1em;
+	}
+
+
+}

@@ -1,0 +1,23 @@
+<ion-header center text-center no-border>
+
+ 
+
+  <ion-fab style="position: absolute; right:5px;"> <button (click)="LoadProfile()" ion-fab mini><ion-icon name="md-person"></ion-icon></button></ion-fab>
+  <h4 id="naslov">Penguin <br> Triathlon</h4>
+  
+  	
+</ion-header>
+<ion-content class="no-scroll" center text-center padding>
+ 
+  	<button class="odmik" ion-button color="light" round large (click)="loadLevels()">
+  		<p class="napisGumba">Play</p>
+  	</button><br>
+    <button class="odmik" ion-button color="light" round large (click)="loadShop()">
+      <p class="napisGumba">Shop</p>
+    </button><br>
+  	<button class="odmik" ion-button color="light" round large (click)="loadStatistics()">
+  		<p class="napisGumba">Scoreboard</p>
+  	</button><br>
+  
+
+</ion-content>

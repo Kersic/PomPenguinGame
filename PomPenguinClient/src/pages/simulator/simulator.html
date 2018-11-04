@@ -1,0 +1,52 @@
+<ion-header no-border>
+  <ion-navbar text-center>
+
+    <ion-title>
+
+        <p class="beliNapis2">{{izbranLevelName}}</p>
+
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content  text-center >
+
+<br>
+<img src="./img/penguinSiv.png" id="penguin">
+<!--<div id="speedsInfo">
+  <p class="miniText"><ion-icon class="miniText" name="ios-snow-outline"></ion-icon> 20</p>
+  <p class="miniText"><ion-icon class="miniText" name="ios-cube-outline"></ion-icon> 20</p>
+  <p class="miniText"><ion-icon class="miniText" name="ios-water-outline"></ion-icon> 20</p>
+</div>-->
+<div id="crta"></div>
+<div id="crta2"></div>
+<div id="crta3"></div>
+<p id="start">Start</p>
+<p id="finish">Finish</p>
+
+<div  class="podatki" >
+  <h2 class="rezultati">Type:</h2>
+
+<!--ios-snow-outline  ios-water-outline ios-cube-outline -->
+<h1 *ngIf=" prikazanTip == 3 " ><ion-icon class="ikona2" name="ios-snow-outline"></ion-icon></h1>
+<h1 *ngIf=" prikazanTip == 0 " ><ion-icon class="ikona" name="ios-snow-outline"></ion-icon></h1>
+<h1 *ngIf=" prikazanTip == 2 "><ion-icon class="ikona" name="ios-water-outline"></ion-icon></h1>
+<h1 *ngIf=" prikazanTip == 1 "><ion-icon class="ikona" name="ios-cube-outline"></ion-icon></h1>
+</div>
+
+<!--<div class="slikaOzadja"></div>-->
+
+<div class="podatki">
+
+  <img src="img/stopwatch.png" width="30px" >
+  <h2  style="margin-bottom: 5px;" style="display:inline-block;" class="rezultati"> {{prikazaniCas}}s</h2>
+</div>
+<div>
+  <div  class="podatki" >
+	  <img src="img/coin2.png" width="30px" >
+	  <h2 style="margin-bottom: 5px;" style="display:inline-block;" class="rezultati">{{priakzaniCekini}}</h2>
+  </div> 
+  
+</div>
+
+</ion-content>

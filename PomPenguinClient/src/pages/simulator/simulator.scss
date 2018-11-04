@@ -1,0 +1,135 @@
+page-simulator {
+
+	.beliNapis2{
+		color:white;
+		font-family: chewy;
+		font-size: 25px;
+		
+		
+	}
+	.fixed-content {
+     /* background: linear-gradient(to bottom left, white, #4286f4);*/
+   		/*background: white;*/
+   		/*background-image: url("/img/sneg.jpg");*/
+    }
+	.rezultati{
+		color:white;
+		font-family: pisavaGumbi;
+	}
+	#penguin{
+		height:40px; 
+		margin-left: 40px; 
+		width:40px;
+		position: absolute;
+		left: 6px;
+	}
+	#speedsInfo{
+		height:40px; 
+		margin-left: 50px; 
+		width:50px;
+		position: absolute;
+		left: 26px;
+	}
+	.miniText{
+		color: white;
+		font-size: 12px;
+		line-height: 50%	
+	}
+	.animatedPenguin{
+		
+		/*animacija*/
+		animation-name: premikPingvina;
+		animation-duration: 8s;
+		animation-timing-function: linear;
+		animation-fill-mode: forwards;
+
+	}
+	#crta{
+		background-color: white;
+		position: absolute;
+		height: 65vh;
+		width: 2px;
+		border-radius: 2px;
+		top:6vh;
+		left: 65px;
+		z-index: -1;
+	}
+	#crta2{
+		background-color: white;
+		position: absolute;
+		height: 2px;
+		width: 10px;
+		border-radius: 2px;
+		top:6vh;
+		left: 61px;
+		z-index: -1;
+	}
+	#crta3{
+		background-color: white;
+		position: absolute;
+		height: 2px;
+		width: 10px;
+		border-radius: 2px;
+		top:71vh;
+		left: 61px;
+		z-index: -1;
+	}
+	#start
+	{
+		position: absolute;
+		font-size: 15px;
+		color: white;
+		font-family: pisavaGumbi;
+		top:0vh;
+		left: 52px;
+		z-index: -1;
+	}
+	#finish{
+		position: absolute;
+		font-size: 15px;
+		color: white;
+		font-family: pisavaGumbi;
+		top:71vh;
+		left: 52px;
+		z-index: -1;
+	}
+
+	@keyframes premikPingvina{
+		from{ transform: translateY(0vh)} /*5px*/
+		to{ transform: translateY(64vh); } /*65*/
+	}
+
+	.ikona{
+		margin: 5px;
+
+    	color: white;
+    	font-size: 90px;
+    	
+    }
+    .ikona2{
+		margin: 5px;
+
+    	color: #80bfff;
+    	font-size: 90px;
+    	
+    }
+    .podatki{
+		padding-left: 50px;
+	}
+	.slikaOzadja
+	{
+		margin-top: 20px;
+		position: absolute;
+		z-index: -1;
+		margin-left:30%;
+		width:60%;
+		height: 30%;
+		/*background-color: white;*/
+		background-image: url("/img/sneg.jpg");
+		border-radius: 10em;
+		-moz-border-radius: 10em;
+		overflow: hidden;
+		box-shadow: 0 0 20px 10px #80bfff inset;
+	}
+
+}

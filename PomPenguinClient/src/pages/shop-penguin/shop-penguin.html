@@ -1,0 +1,148 @@
+<ion-header >
+  <ion-navbar text-center hideBackButton="true">
+
+     <ion-buttons left padding>
+      <button  color="white" ion-button icon-only (click)="submitEvent()">
+        <ion-icon  name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>
+
+      <div class="coins">
+         <div style="display:inline-block;">
+          <p class="coinsColorWhite">{{coins}}</p>
+        </div>
+        <div style="display:inline-block;" >
+          <img src="img/coin2.png" width="20px">
+        </div> 
+      </div>
+      
+
+      <p class="beliNapis2">Penguins</p>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content  text-center>
+
+  <ion-fab  right top edge> <button (click)="getHint()" ion-fab mini><ion-icon name="md-bulb"></ion-icon></button></ion-fab>
+
+<div>
+ 
+
+	 <ion-fab *ngIf=" currentIndex < 7 "  right middle> <button ion-fab mini (click)="slideNextPenguin()"><ion-icon name="ios-arrow-forward"></ion-icon></button></ion-fab>
+
+   <ion-fab *ngIf=" currentIndex != 0" left middle> <button ion-fab mini (click)="slidePrevPenguin()"><ion-icon name="ios-arrow-back"></ion-icon></button></ion-fab>
+
+  <!-- slider -->
+  <ion-slides (ionSlideDidChange)="slideChanged()">
+
+    <ion-slide *ngFor="let penguinData of panguinsData">
+      <h4  class="prviNaslov napis">{{ penguinData.penguin.name }}</h4>
+      <img *ngIf="penguinData.penguin.color =='gray'" src="./img/penguinSiv.png" style="height:200px; width:200px">
+      <img *ngIf="penguinData.penguin.color =='blue'" src="./img/penguinModer.png" style="height:200px; width:200px">
+      <img *ngIf="penguinData.penguin.color =='red'" src="./img/penguinRdec.png" style="height:200px; width:200px">
+      <img *ngIf="penguinData.penguin.color =='yellow'" src="./img/penguinRumen.png" style="height:200px; width:200px">
+      <img *ngIf="penguinData.penguin.color =='purple'" src="./img/penguinVijolicen.png" style="height:200px; width:200px">
+      <img *ngIf="penguinData.penguin.color =='orange'" src="./img/penguinOranzen.png" style="height:200px; width:200px">
+      <img *ngIf="penguinData.penguin.color =='green'" src="./img/penguinZelen.png" style="height:200px; width:200px">
+      <img *ngIf="penguinData.penguin.color =='pink'" src="./img/penguinRoza.png" style="height:200px; width:200px">
+      <h4 class="napis">Speeds: </h4>
+      <pre class="napis">Water: {{penguinData.hitrosti.waterSpeed}}   Snow: {{penguinData.hitrosti.snowSpeed}}   Ice: {{penguinData.hitrosti.iceSpeed}}</pre>
+      <h4  class="napis">Price: {{penguinData.penguin.penguinCost}}</h4>
+      <button *ngIf="penguinData.kupljen=='izbran'" class="buyBtn" [disabled]="true" ion-button round large>Current
+      </button>
+      <button *ngIf="penguinData.kupljen=='ja'" (click)="selectPenguin(penguinData.penguin._id)" class="buyBtn" ion-button round large>Select
+      </button>
+      <button *ngIf="penguinData.kupljen=='ne'" (click)="BuyPenguin(penguinData.penguin._id)" class="buyBtn" ion-button round large>Buy
+      </button>
+      <p [@visibilitytrigger]="visibleState" class="errorMesage">{{errorMessage}}</p>
+
+    </ion-slide>
+
+
+     <!--<ion-slide>
+      <h4  class="prviNaslov napis">Alex</h4>
+      <img src="./img/penguinSiv.png" style="height:200px; width:200px">
+      <h4 class="napis">Speeds: </h4>
+      <pre class="napis">Ice: 5    Water: 8   Snow: 4</pre>
+      <h4  class="napis">Price: 2000</h4>
+      <button class="buyBtn" ion-button round large>Buy
+      </button>
+    </ion-slide>
+
+    <ion-slide>
+      <h4  class="prviNaslov napis">Pingo</h4>
+      <img src="./img/penguinModer.png" style="height:200px; width:200px">
+      <h4 class="napis">Speeds: </h4>
+      <pre class="napis">Ice: 7    Water: 7  Snow: 2</pre>
+      <h4  class="napis">Price: 3000</h4>
+      <button class="buyBtn" ion-button round large>Buy
+      </button>
+    </ion-slide>
+
+    <ion-slide>
+      <h4  class="prviNaslov napis">Rico</h4>
+     <img src="./img/penguinRdec.png" style="height:200px; width:200px">
+      <h4 class="napis">Speeds: </h4>
+      <pre class="napis">Ice: 8    Water: 9   Snow: 5</pre>
+      <h4  class="napis">Price: 4000</h4>
+      <button class="buyBtn" ion-button round large>Buy
+      </button>
+    </ion-slide>
+
+    <ion-slide>
+      <h4  class="prviNaslov napis">Fred</h4>
+      <img src="./img/penguinRumen.png" style="height:200px; width:200px">
+      <h4 class="napis">Speeds: </h4>
+      <pre class="napis">Ice: 8    Water: 10   Snow: 6</pre>
+      <h4  class="napis">Price: 5000</h4>
+      <button class="buyBtn" ion-button round large>Buy
+      </button>
+    </ion-slide>
+    
+    <ion-slide>
+      <h4  class="prviNaslov napis">Rookie</h4>
+      <img src="./img/penguinVijolicen.png" style="height:200px; width:200px">
+      <h4 class="napis">Speeds: </h4>
+      <pre class="napis">Ice: 12    Water: 11   Snow: 7</pre>
+      <h4  class="napis">Price: 5000</h4>
+      <button class="buyBtn" ion-button round large>Buy
+      </button>
+    </ion-slide>
+
+    <ion-slide>
+      <h4  class="prviNaslov napis">Kowalski</h4>
+      <img src="./img/penguinOranzen.png" style="height:200px; width:200px">
+      <h4 class="napis">Speeds: </h4>
+      <pre class="napis">Ice: 13    Water: 12   Snow: 5</pre>
+      <h4  class="napis">Price: 6000</h4>
+      <button class="buyBtn" ion-button round large>Buy
+      </button>
+    </ion-slide>
+
+    <ion-slide>
+      <h4  class="prviNaslov napis">Pororo</h4>
+      <img src="./img/penguinZelen.png" style="height:200px; width:200px">
+      <h4 class="napis">Speeds: </h4>
+      <pre class="napis">Ice: 15   Water: 11   Snow: 5</pre>
+      <h4  class="napis">Price: 7000</h4>
+      <button class="buyBtn" ion-button round large>Buy
+      </button>
+    </ion-slide>
+
+    <ion-slide>
+      <h4  class="prviNaslov napis">Jessica</h4>
+     <img src="./img/penguinRoza.png" style="height:200px; width:200px">
+      <h4 class="napis">Speeds: </h4>
+      <pre class="napis">Ice: 14    Water: 15   Snow: 7</pre>
+      <h4  class="napis">Price: 8000</h4>
+      <button class="buyBtn" ion-button round large>Buy
+      </button>
+    </ion-slide>-->
+
+  </ion-slides>
+</div>
+
+</ion-content>

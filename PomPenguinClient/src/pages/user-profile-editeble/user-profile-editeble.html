@@ -1,0 +1,41 @@
+<ion-header >
+  <ion-navbar text-center>
+    <ion-title>
+    	<p class="beliNapis">User Profile</p>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content text-center >
+
+	<ion-card>
+    	<ion-card-header>
+
+    		
+
+	    	<ion-label class="cardHeader">Username:</ion-label>
+	    	<ion-input class="napis" [(ngModel)]="username" class="username" value="{{username}}"></ion-input>
+
+	    	<br>
+	       	
+
+	       	<ion-label class="cardHeader">Email:</ion-label>
+	       	<ion-input class="napis" [(ngModel)]="email" class="email" value="{{email}}"></ion-input>
+
+	       	<br><br>
+		   
+
+	
+	  	</ion-card-header>
+	  	 <div text-start margin>
+				
+				<button color="customBlue" class="napis gumb" ion-button (click)="save()" >Save
+					
+				</button>	
+
+			</div>	
+ 	</ion-card>
+
+</ion-content>

@@ -1,0 +1,52 @@
+// http://ionicframework.com/docs/theming/
+
+@font-face {
+	font-family: Chewy;
+	src: url('../assets/fonts/Chewy.woff2');
+}
+@font-face {
+	font-family: pisavaGumbi;
+	src: url('../assets/fonts/pisavaGumbi.woff2');
+}
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.fixed-content {
+     /* background: linear-gradient(to bottom left, white, #4286f4);*/
+   		background: #80bfff;
+    }
+.toolbar-background {
+  background-color: #80bfff;
+}
+.beliNapis{
+		color:white;
+		font-family: chewy;
+		font-size: 25px;
+		/*padding-right: 55px;*/
+}
+.back-button-icon-md {
+  	color: white;
+ 
+}
+.tab-button-text {
+  font-family:  pisavaGumbi;
+}
+
+/*::-webkit-scrollbar{
+display:none;
+}*/
+::-webkit-scrollbar{
+display:none;
+}

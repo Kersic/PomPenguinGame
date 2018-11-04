@@ -1,0 +1,43 @@
+<ion-header >
+  <ion-navbar text-center hideBackButton>
+  	<ion-buttons left>
+  		<button ion-button (click)="BackButonClick()">
+  			<ion-icon class="custonIcon" name="arrow-back"></ion-icon>
+  		</button>
+  	</ion-buttons>
+    <ion-title>
+    	<p class="beliNapis">User Profile</p>
+    </ion-title>
+
+    <ion-buttons end>
+		
+		<button ion-button (click)="editProfile()">
+			<ion-icon name="md-create">
+				  
+			</ion-icon>
+		</button>	
+
+	</ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content text-center >
+
+	<ion-img width="200" height="200" src="./img/Avatar.png"></ion-img>
+
+	<ion-card class="penguinCard">
+    	<ion-card-header>
+    		<ion-label class="cardHeader">Username:</ion-label><br><br>
+    		<ion-label class="napis" text-left>{{username}}</ion-label>
+    		<br>
+    		<ion-label class="cardHeader">Email:</ion-label><br><br>
+    		<ion-label class="napis" text-left>{{email}}</ion-label>
+	    	<!--
+	    	<p class="cardHeader">User:</p><p class="whiteText">____</p><p class="username">{{username}}</p>
+	    	-->
+			
+	  	</ion-card-header>
+ 	</ion-card>
+
+</ion-content>

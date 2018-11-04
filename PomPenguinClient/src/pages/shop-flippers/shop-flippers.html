@@ -1,0 +1,41 @@
+<ion-header >
+  <ion-navbar text-center>
+
+    <ion-buttons left padding>
+      <button  color="white" ion-button icon-only (click)="submitEvent()">
+        <ion-icon  name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>
+
+      <div class="coins">
+         <div style="display:inline-block;">
+          <p>{{coins}}</p>
+        </div>
+        <div style="display:inline-block;" >
+          <img src="img/coin2.png" width="20px">
+        </div>
+       
+      </div>
+
+        <p class="beliNapis2">Flippers</p>
+
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content  text-center>
+  <ion-fab right top edge> <button (click)="getHint()" ion-fab mini><ion-icon name="md-bulb"></ion-icon></button></ion-fab>
+<div>
+  <h4  class="prviNaslov napis">Next level:</h4>
+  <h1 class="LevelNumber"> {{level}} </h1>
+  <h4 class="napis">Current speed: {{currentSpeed}}</h4>
+  <h4 class="napis">New speed: {{newSpeed}}</h4>
+  <h4  class="napis">Price: {{price}}</h4>
+  <button (click)="upgrade()" class="buyUpgradeBtn" ion-button round large>Upgrade
+  </button>
+  <p [@visibilitytrigger]="visibleState" class="errorMesage">{{errorMessage}}</p>
+</div>
+
+</ion-content>

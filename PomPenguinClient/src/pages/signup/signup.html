@@ -1,0 +1,22 @@
+<ion-header center text-center no-border>
+  <h4 id="naslov">Sign up</h4>
+  
+    <ion-input style="text-align: center;" [(ngModel)]="username" type="text" placeholder="Username"></ion-input>
+    <hr>
+    <ion-input [(ngModel)]="email" type="email" placeholder="Email"></ion-input>
+    <hr>
+    <ion-input [(ngModel)]="password" type="password" placeholder="Password"></ion-input>
+    <hr>
+    
+
+  	
+</ion-header>
+<ion-content class="no-scroll" center text-center padding>
+  	<button class="odmik" ion-button color="light" round large (click)="Signup()">
+  		<p class="napisGumba">Create account</p>
+  	</button><br>
+  	<button ion-button round clear large (click)="Login()">
+  		<p class="belNapisGumba">Log in</p>
+  	</button>
+    <p [@visibilitytrigger]="visibleState" class="errorMesage">{{errorMessage}}</p>
+</ion-content>

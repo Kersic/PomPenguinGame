@@ -1,0 +1,113 @@
+<ion-header no-border>
+
+  <ion-navbar text-center>
+
+    <ion-title >
+     	<p class="beliNapis">Statistics</p>
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content text-center>
+
+
+ 	<ion-slides >
+
+ 		<ion-slide *ngFor="let statistkaLevel of statistikaPodatki">
+ 			<ion-card class="resoultCard">
+		    	<ion-card-header>
+			    <p class="cardHeader">{{statistkaLevel.name}}<p>
+			  </ion-card-header>
+			    <ion-card-content>
+					<ion-list>
+						<ion-item *ngFor="let podatek of statistkaLevel.stat"><p class="listContent">{{podatek.username}}</p><p class="listContent" item-right>{{podatek.time}}s</p></ion-item>
+					</ion-list>
+				</ion-card-content>
+			</ion-card>
+ 		</ion-slide>
+
+	    <!--<ion-slide>
+		    <ion-card class="resoultCard">
+		    	<ion-card-header>
+			    <p class="cardHeader">Bald Head:<p>
+			  </ion-card-header>
+			    <ion-card-content>
+					<ion-list>
+						<ion-item><p class="listContent">Marko</p><p class="listContent" item-right>time: 80.30</p></ion-item>
+						<ion-item><p class="listContent">Luka</p><p class="listContent" item-right>time: 85.12</p></ion-item>
+						<ion-item><p class="listContent">Janez</p><p class="listContent" item-right>time: 86.13</p></ion-item>
+						<ion-item><p class="listContent">Matej</p><p class="listContent" item-right>time: 90</p></ion-item>
+						<ion-item><p class="listContent">Marjan</p><p class="listContent" item-right>time: 98.45</p></ion-item>
+						<ion-item><p class="listContent">Tatjana</p><p class="listContent" item-right>time: 100.2</p></ion-item>
+						<ion-item><p class="listContent">Nika</p><p class="listContent" item-right>time: 102.68</p></ion-item>
+						<ion-item><p class="listContent">Miha</p><p class="listContent" item-right>time: 103.5</p></ion-item>
+					</ion-list>
+				</ion-card-content>
+			</ion-card>
+		</ion-slide>
+
+		 <ion-slide>
+		    <ion-card class="resoultCard">
+		    	<ion-card-header>
+			    <p class="cardHeader">Bodie island:<p>
+			  </ion-card-header>
+			    <ion-card-content>
+					<ion-list>
+						<ion-item><p class="listContent">Marjan</p><p class="listContent" item-right>time: 50</p></ion-item>
+						<ion-item><p class="listContent">Tadeja</p><p class="listContent" item-right>time: 51.45</p></ion-item>
+						<ion-item><p class="listContent">Nika</p><p class="listContent" item-right>time: 51.84</p></ion-item>
+						<ion-item><p class="listContent">Lovro</p><p class="listContent" item-right>time: 53.89</p></ion-item>
+						<ion-item><p class="listContent">Luka</p><p class="listContent" item-right>time: 57.98</p></ion-item>
+						<ion-item><p class="listContent">Marko</p><p class="listContent" item-right>time: 60.74</p></ion-item>
+						<ion-item><p class="listContent">Simon</p><p class="listContent" item-right>time: 68.15</p></ion-item>
+						<ion-item><p class="listContent">Klemen</p><p class="listContent" item-right>time: 70</p></ion-item>
+					</ion-list>
+				</ion-card-content>
+			</ion-card>
+		</ion-slide>
+
+		 <ion-slide>
+		    <ion-card class="resoultCard">
+		    	<ion-card-header>
+			    <p class="cardHeader">Cape Fear:<p>
+			  </ion-card-header>
+			    <ion-card-content>
+					<ion-list>
+						<ion-item><p class="listContent">Jakob</p><p class="listContent" item-right>time: 150.63</p></ion-item>
+						<ion-item><p class="listContent">Filip</p><p class="listContent" item-right>time: 152.6</p></ion-item>
+						<ion-item><p class="listContent">Tjaša</p><p class="listContent" item-right>time: 153.65</p></ion-item>
+						<ion-item><p class="listContent">Veronika</p><p class="listContent" item-right>time: 156.21</p></ion-item>
+						<ion-item><p class="listContent">Eva</p><p class="listContent" item-right>time: 158.65</p></ion-item>
+						<ion-item><p class="listContent">Maja</p><p class="listContent" item-right>time: 159.26</p></ion-item>
+						<ion-item><p class="listContent">Laura</p><p class="listContent" item-right>time: 160.21</p></ion-item>
+						<ion-item><p class="listContent">Izaija</p><p class="listContent" item-right>time: 167.32</p></ion-item>
+					</ion-list>
+				</ion-card-content>
+			</ion-card>
+		</ion-slide>
+
+		 <ion-slide>
+		    <ion-card class="resoultCard">
+		    	<ion-card-header>
+			    <p class="cardHeader">Cape Hatteras:<p>
+			  </ion-card-header>
+			    <ion-card-content>
+					<ion-list>
+						<ion-item><p class="listContent">Marko</p><p class="listContent" item-right>time: 49.32</p></ion-item>
+						<ion-item><p class="listContent">Miha</p><p class="listContent" item-right>time: 51.45</p></ion-item>
+						<ion-item><p class="listContent">Nika</p><p class="listContent" item-right>time: 51.84</p></ion-item>
+						<ion-item><p class="listContent">Lovro</p><p class="listContent" item-right>time: 53.89</p></ion-item>
+						<ion-item><p class="listContent">Luka</p><p class="listContent" item-right>time: 57.98</p></ion-item>
+						<ion-item><p class="listContent">Marjan</p><p class="listContent" item-right>time: 60.74</p></ion-item>
+						<ion-item><p class="listContent">Simon</p><p class="listContent" item-right>time: 68.15</p></ion-item>
+						<ion-item><p class="listContent">Klemen</p><p class="listContent" item-right>time: 70</p></ion-item>
+					</ion-list>
+				</ion-card-content>
+			</ion-card>
+		</ion-slide>-->
+
+	</ion-slides>
+</ion-content>

@@ -1,0 +1,94 @@
+page-login {
+	#naslov{
+		padding-top: 40px;
+		padding-bottom: 30px;
+		color:white;
+		font-size: 65px;
+		font-family: chewy;
+	}
+	button{
+		width: 280px;
+	}
+	.napisGumba{
+		color:#80bfff;
+		font-family:pisavaGumbi;
+		font-weight: bold;
+		text-transform: none;
+	}
+	.errorMesage
+	{
+		color:white;
+		font-family:pisavaGumbi;
+		font-weight: bold;
+		text-transform: none;
+	}
+	.belNapisGumba{
+		color:white;
+		font-family:pisavaGumbi;
+		font-weight: bold;
+		text-transform: none;
+	}
+
+	ion-input {
+		input {
+				 text-align: center ;
+		}
+	}
+	ion-input {
+		color: white;
+		font-family:pisavaGumbi;
+		font-size: 27px;
+		background-color: rgba(0, 0, 0, 0);
+		text-align: middle;
+		/*font-weight: bold;*/
+	}
+	.odmik {
+		margin-top: 10px;
+	}
+	/*.text-input::-moz-placeholder {
+		color: white;
+		font-family:pisavaGumbi;
+		font-size: 20px;
+	}
+
+	.text-input:-ms-input-placeholder {
+		color: white;
+		font-family:pisavaGumbi;
+		font-size: 25px;
+	}*/
+	.text-input:focus::-webkit-input-placeholder { 
+		color:transparent; 
+	}
+	.text-input::-webkit-input-placeholder {
+	    text-indent: 0;
+	    font-family:pisavaGumbi;
+	    font-size: 25px;
+	    color: white;
+	    text-align: center;
+	}
+	ion-header, ion-footer {
+		background-color: #80bfff;
+	}
+	hr {
+	  margin-top: 0px;
+	  border: 2px white !important;
+	  height: 1px !important;
+	  width: 70% !important;
+	  background: white !important;
+	  display: block !important;
+	  font-size: 2em !important;
+	  visibility: visible !important;
+	}
+
+ /*Animacija error sporocila
+	#errorMsg {
+    opacity:1;
+    visibility:  hidden;
+    transition:opacity 500ms;
+	}
+	#errorMsg.fade {
+	    opacity:0;
+	}*/
+
+
+}
