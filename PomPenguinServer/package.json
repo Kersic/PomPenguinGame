@@ -20,6 +20,7 @@
     "compression": "^1.7.2",
     "cors": "^2.8.4",
     "ejs": "^2.5.8",
+    "event-stream": "^4.0.1",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
     "express-validator": "^5.0.3",
