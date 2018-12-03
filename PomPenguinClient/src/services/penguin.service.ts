@@ -15,7 +15,7 @@ export class Service{
 
 	constructor(http:Http){
 		this.http= http;
-		this.baseUrl = 'https://black-dolphin-73.localtunnel.me';
+		this.baseUrl = 'https://stupid-panther-74.localtunnel.me';
 		//this.baseUrl = 'http://localhost:3000';
 
 		//this.baseUrl = 'https://penguintriathlon.herokuapp.com';

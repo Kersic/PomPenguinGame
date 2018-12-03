@@ -1,6 +1,6 @@
 var spawn = require("child_process").spawn;
 
-function codeNumbers(numbers) {
+function codeNumbers(numbers, callback) {
     var arrayToCode = [];
     arrayToCode.push("./coding.py");
     arrayToCode.push("code");
@@ -9,16 +9,18 @@ function codeNumbers(numbers) {
     });
     var code = spawn('python', arrayToCode);
     code.stdout.on('data', function (data) {
-        console.log(data.toString());
+        return callback(data.toString())
     });
 }
 
-function decodeNumbers(bits) {
+function decodeNumbers(bits, callback) {
     var decode = spawn('python', ["./coding.py", "decode", bits]);
-    decode.stdout.on('data', function (data) {
-        console.log(data.toString());
+    let ret = "";
+    return decode.stdout.on('data', function (data) {
+        return callback(data.toString())
     });
+
 }
 
-codeNumbers([55, 53, 53, 53, 53, 53, 10, 10, 11, 11, 11, 11]);
-decodeNumbers( "000011011100000001010010100010101101000100001001001111");
+codeNumbers([55, 53, 53, 53, 53, 53, 10, 10, 11, 11, 11, 11], function (result){ console.log(result)});
+decodeNumbers( "000011011100000001010010100010101101000100001001001111", function (result){ console.log(result)});
