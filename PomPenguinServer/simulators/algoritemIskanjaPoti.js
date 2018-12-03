@@ -68,8 +68,8 @@ module.exports = {
 		//tezavnost // 0-gre skozi nekaj ovir // 1-ne gre skozi ovire //2- pobira powerupe
 		var stevilaZaOvire = [2];
 
-		console.log(JSON.stringify(trenutniOdsek));
-		console.log(JSON.stringify(naslednjiOdsek));
+		//console.log(JSON.stringify(trenutniOdsek));
+		//console.log(JSON.stringify(naslednjiOdsek));
 
 		//pripravi vozlisca za algoritem iz obeh odsekov
 		var graf = [];

@@ -117,7 +117,7 @@ router.post('/', function(req, res)
 
 router.delete('/:id', function(req,res){
 	//preverimo ce obstaja
-	racetrack.findById(req.params.id, function(err, p){
+    racetrack.findById(req.params.id, function(err, p){
 		if(err)
 		{
 			console.log(req.params.id);
