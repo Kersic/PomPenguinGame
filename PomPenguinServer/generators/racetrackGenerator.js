@@ -8,8 +8,10 @@ module.exports = {
 		//TO DO
 		//tezavnosti
 		//shranjevanje
-		
 
+		if(stOdsekov < 1 || minZaporednih < 1){
+            throw new Error('iz podanih parametrov ni mogoce generirati proge');
+		}
 
 
 		var name = "test";
@@ -240,9 +242,9 @@ module.exports = {
 		var snowPercent = Math.round(((stSneznihOdsekov / stVseh) * 100)*10) / 10;
 		var icePercent = Math.round(((stLedenihOdsekov / stVseh) * 100)*10) / 10;
 
-		console.log("water: "+waterPercent);
-		console.log("snow:"+snowPercent);
-		console.log("ice"+icePercent);
+		// console.log("water: "+waterPercent);
+		// console.log("snow:"+snowPercent);
+		// console.log("ice"+icePercent);
 		//podatke shranimo v json
 		generiranaProga = new racetrack({
 			name: name,
