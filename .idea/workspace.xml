@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f4ba259-1af3-424f-83ee-623295930dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PomPenguinServer/test/models/improvementTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PomPenguinServer/models/penguin.js" beforeDir="false" afterPath="$PROJECT_DIR$/PomPenguinServer/models/penguin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PomPenguinServer/models/powerup.js" beforeDir="false" afterPath="$PROJECT_DIR$/PomPenguinServer/models/powerup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PomPenguinServer/test/models/racetrackModelTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/PomPenguinServer/test/models/racetrackModelTest.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,13 +48,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="2635" />
-          <entry key="txt" value="102" />
+          <entry key="txt" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="2635" />
-          <entry key="PLAIN_TEXT" value="102" />
+          <entry key="PLAIN_TEXT" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -116,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PomPenguinServer/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -1285,7 +1281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543873121501</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TestiFilip">
+      <created>1543933493462</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543933493462</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1321,7 +1324,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17353000" />
+    <option name="totallyTimeSpent" value="17410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1421,7 +1424,8 @@
     <MESSAGE value="GitLabFilip Test" />
     <MESSAGE value="test Generatorja in modela" />
     <MESSAGE value="test modela proge" />
-    <option name="LAST_COMMIT_MESSAGE" value="test modela proge" />
+    <MESSAGE value="TestiFilip" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestiFilip" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PomPenguinServer/Napredek-READ ME.txt" />
@@ -1595,8 +1599,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PomPenguinServer/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
         </state>
       </provider>
     </entry>
