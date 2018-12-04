@@ -1,43 +1,57 @@
-  let mongoose = require('mongoose');
+let mongoose = require('mongoose');
 
-   let penguinSchema = mongoose.Schema({
-   		"name":{
-            "type":"string",
-            "required": true
-        },
-        "color":{
-            "type":"string",
-            "required": true
-        },
-        "baseSpeed":{
+let penguinSchema = mongoose.Schema({
+    "name":{
+        "type":"string",
+        "required": true
+    },
+    "color":{
+        "type":"string",
+        "required": true
+    },
+    "baseSpeed":{
+        "type": Number,
+        "required":true
+    },
+    "speed":{
+        "run":{
             "type": Number,
-            "required":true        
+            "required":true,
+            "minimum":0,
+            "maximum":100
         },
-        "speed":{
-            "run":{
-                "type": Number,
-                "required":true,
-                "minimum":0,
-                "maximum":100
-            },
-            "slide":{
-                "type": Number,
-                "required":true,
-                "minimum":0,
-                "maximum":100
-            },
-            "swim":{
-                "type": Number,
-                "required":true,
-            	"minimum":0,
-	        	"maximum":100	
-            } 
-        },
-        "penguinCost":{
+        "slide":{
             "type": Number,
-            "required":true
+            "required":true,
+            "minimum":0,
+            "maximum":100
         },
-	
-  });
+        "swim":{
+            "type": Number,
+            "required":true,
+            "minimum":0,
+            "maximum":100
+        }
+    },
+    "penguinCost":{
+        "type": Number,
+        "required":true
+    },
+    "improvements": {
+        "iceImprov":{
+            "level":Number,
+            "speed":Number
+        },
+        "snowImprov":{
+            "level":Number,
+            "speed":Number
+        },
+        "waterImprov":{
+            "level":Number,
+            "speed":Number
+        }
+    }
 
-  let penguin = module.exports = mongoose.model('penguin', penguinSchema);
+});
+
+let penguin = module.exports = mongoose.model('penguin', penguinSchema);

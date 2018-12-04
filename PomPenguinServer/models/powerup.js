@@ -5,17 +5,16 @@
             "type":"string",
             "required": true
         },
-      "slowup_factor":{
+      "speedup_factor":{
             "type":Number,
             "required": true,
             "minimum":1,
             "maximum":100 
         },
-      "slowup_time":{
+      "speedup_time":{
             "type":Number,
             "required": true
         }
-	  
   });
 
   let powerup = module.exports = mongoose.model('powerup', powerupSchema);

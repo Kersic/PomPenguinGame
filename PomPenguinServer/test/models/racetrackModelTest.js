@@ -55,6 +55,4 @@ describe('Test modela proge', function () {
            assert.equal(p, null);
        });
     });
-
-
 });
