@@ -39,6 +39,28 @@ describe('test_izboljsave', function(){
         });
     });
 
+    it('Dodaj izboljsavo pingvinu', async function(){
+
+        var testniPingvin = new penguin({
+            name: "Penguin_test",
+            color:"red",
+            baseSpeed: 100,
+            speed:{
+                run:20,
+                slide:30,
+                swim:20
+            },
+            penguinCost: 300,
+        });
+        await testniPingvin.save();
+
+        await penguin.findOneAndUpdate({'_id':testniPingvin._id}, {'improvements':{'iceImprov':testnaIzboljsava}}, {upsert:true}, function(err, res){});
+        await improvement.findById(testniPingvin._id, function(err, res){
+            assert.notEqual(res.improvements.iceImprov,null);
+        });
+
+    });
+
 
     it('Zbrisi izboljsavo iz baze', async function(){
         await testnaIzboljsava.remove();
