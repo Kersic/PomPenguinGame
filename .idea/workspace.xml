@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f4ba259-1af3-424f-83ee-623295930dab" name="Default Changelist" comment="" />
+    <list default="true" id="1f4ba259-1af3-424f-83ee-623295930dab" name="Default Changelist" comment="tmp">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PomPenguinServer/test/models/improvementTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/PomPenguinServer/test/models/zimprovementTest.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,7 +32,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="38" />
+          <entry key="js" value="48" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
           <entry key="py" value="2" />
@@ -41,7 +44,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="38" />
+          <entry key="JavaScript" value="48" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="TypeScript" value="3" />
         </counts>
@@ -49,18 +52,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="2635" />
-          <entry key="txt" value="113" />
+          <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="2635" />
-          <entry key="PLAIN_TEXT" value="113" />
+          <entry key="PLAIN_TEXT" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.checkout.local" value="3" />
           <entry key="git.branch.delete.local" value="1" />
         </counts>
       </usages-collector>
@@ -102,11 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/penguinModelTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="1">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -138,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/simulators/simulatorTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="437">
+              <caret line="29" column="120" selection-start-line="29" selection-start-column="120" selection-end-line="29" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -165,7 +168,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="TestiTadeja" />
       </map>
     </option>
     <option name="RESET_MODE" value="SOFT" />
@@ -251,32 +254,7 @@
               <item name="PomPenguin" type="b2602c69:ProjectViewProjectNode" />
               <item name="PomPenguin" type="462c0819:PsiDirectoryNode" />
               <item name="PomPenguinServer" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PomPenguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PomPenguin" type="462c0819:PsiDirectoryNode" />
-              <item name="PomPenguinServer" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PomPenguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PomPenguin" type="462c0819:PsiDirectoryNode" />
-              <item name="PomPenguinServer" type="462c0819:PsiDirectoryNode" />
-              <item name="simulators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PomPenguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PomPenguin" type="462c0819:PsiDirectoryNode" />
-              <item name="PomPenguinServer" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PomPenguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PomPenguin" type="462c0819:PsiDirectoryNode" />
-              <item name="PomPenguinServer" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="generators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PomPenguin" type="b2602c69:ProjectViewProjectNode" />
@@ -284,13 +262,6 @@
               <item name="PomPenguinServer" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PomPenguin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PomPenguin" type="462c0819:PsiDirectoryNode" />
-              <item name="PomPenguinServer" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="simulators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,17 +303,6 @@
       <recursive>false</recursive>
       <method v="2" />
     </configuration>
-    <configuration name="PomPenguinServer\test\models\racetrackModelTest.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST_FILE</test-kind>
-      <test-file>$PROJECT_DIR$/PomPenguinServer/test/models/racetrackModelTest.js</test-file>
-      <method v="2" />
-    </configuration>
     <configuration name="Test modela proge" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -371,6 +331,20 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="test_izboljsave" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options>--recursive</extra-mocha-options>
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/PomPenguinServer/test/models/improvementTest.js</test-file>
+      <test-names>
+        <name value="test_izboljsave" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="test_pingvina" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -387,18 +361,18 @@
     </configuration>
     <list>
       <item itemvalue="Mocha.PomPenguinServer\test" />
-      <item itemvalue="Mocha.PomPenguinServer\test\models\racetrackModelTest.js" />
       <item itemvalue="Mocha.racetrackModel" />
       <item itemvalue="Mocha.Test modela proge" />
       <item itemvalue="Mocha.test_pingvina" />
+      <item itemvalue="Mocha.test_izboljsave" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.PomPenguinServer\test" />
+        <item itemvalue="Mocha.test_izboljsave" />
         <item itemvalue="Mocha.test_pingvina" />
         <item itemvalue="Mocha.Test modela proge" />
         <item itemvalue="Mocha.racetrackModel" />
-        <item itemvalue="Mocha.PomPenguinServer\test\models\racetrackModelTest.js" />
-        <item itemvalue="Mocha.PomPenguinServer\test" />
       </list>
     </recent_temporary>
   </component>
@@ -480,28 +454,17 @@
       <option name="project" value="LOCAL" />
       <updated>1543933558171</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tmp">
+      <created>1544470635145</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544470635145</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 19m 12s.xml">
-      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 19m 25s.xml">
-      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 19m 46s.xml">
-      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 26m 20s.xml">
-      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 26m 34s.xml">
-      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 26m 47s.xml">
-      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 27m 07s.xml">
       <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -514,9 +477,27 @@
     <history-entry file="test_pingvina - 2018.12.10 at 20h 27m 53s.xml">
       <configuration name="test_pingvina" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 38m 13s.xml">
+      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 38m 35s.xml">
+      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PomPenguinServer_test - 2018.12.10 at 20h 41m 55s.xml">
+      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_izboljsave - 2018.12.10 at 20h 42m 13s.xml">
+      <configuration name="test_izboljsave" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PomPenguinServer_test - 2018.12.10 at 21h 17m 15s.xml">
+      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="PomPenguinServer_test - 2018.12.10 at 21h 21m 15s.xml">
+      <configuration name="PomPenguinServer\test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23807000" />
+    <option name="totallyTimeSpent" value="25048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,12 +512,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20885658" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20885658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72703236" weight="0.68085104" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.72703236" visible="true" weight="0.21702127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,7 +607,8 @@
     <MESSAGE value="test Generatorja in modela" />
     <MESSAGE value="test modela proge" />
     <MESSAGE value="TestiFilip" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestiFilip" />
+    <MESSAGE value="tmp" />
+    <option name="LAST_COMMIT_MESSAGE" value="tmp" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PomPenguinServer/Napredek-READ ME.txt" />
@@ -742,7 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/improvementTest.js">
+    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/zimprovementTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
@@ -778,6 +760,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/powerupTest.js" />
+    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/penguinModelTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/obstacleTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -801,15 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/simulators/simulatorTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/penguinModelTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="437">
+          <caret line="29" column="120" selection-start-line="29" selection-start-column="120" selection-end-line="29" selection-end-column="120" />
         </state>
       </provider>
     </entry>
