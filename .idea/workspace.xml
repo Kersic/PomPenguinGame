@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f4ba259-1af3-424f-83ee-623295930dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PomPenguinServer/test/simulators/hintTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PomPenguinServer/test/simulators/simulatorTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PomPenguinServer/test/models/improvementTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/PomPenguinServer/test/models/improvementTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PomPenguinServer/test/models/powerupTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PomPenguinServer/test/models/racetrackModelTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/PomPenguinServer/test/models/aracetrackModelTest.js" afterDir="false" />
-    </list>
+    <list default="true" id="1f4ba259-1af3-424f-83ee-623295930dab" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="33" />
+          <entry key="js" value="38" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
           <entry key="py" value="2" />
@@ -48,7 +41,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="33" />
+          <entry key="JavaScript" value="38" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="TypeScript" value="3" />
         </counts>
@@ -68,6 +61,7 @@
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.delete.local" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -111,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/penguinModelTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="297">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -120,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/obstacleTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
+            <state relative-caret-position="204">
               <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
@@ -129,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/aracetrackModelTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
+            <state relative-caret-position="476">
               <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
             </state>
           </provider>
@@ -147,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/simulators/simulatorTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-677">
+            <state relative-caret-position="51">
               <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
@@ -401,10 +395,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Mocha.test_pingvina" />
-        <item itemvalue="Mocha.PomPenguinServer\test" />
         <item itemvalue="Mocha.Test modela proge" />
         <item itemvalue="Mocha.racetrackModel" />
         <item itemvalue="Mocha.PomPenguinServer\test\models\racetrackModelTest.js" />
+        <item itemvalue="Mocha.PomPenguinServer\test" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +516,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23797000" />
+    <option name="totallyTimeSpent" value="23807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,7 +531,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20885658" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20885658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -783,17 +777,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/powerupTest.js">
+    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/powerupTest.js" />
+    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/obstacleTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/simulators/simulatorTest.js">
+    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/aracetrackModelTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="476">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -804,24 +799,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/aracetrackModelTest.js">
+    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/simulators/simulatorTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/obstacleTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PomPenguinServer/test/models/penguinModelTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="297">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>
