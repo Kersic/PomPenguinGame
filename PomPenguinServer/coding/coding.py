@@ -1,5 +1,4 @@
 import sys
-
 call = ''
 node_input_numbers = []
 bit_string = ''

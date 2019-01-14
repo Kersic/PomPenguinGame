@@ -6,6 +6,8 @@ var racetrack = require('../models/racetrack');
 var racetrackGenerator = require('../generators/racetrackGenerator');
 var  jsonSize = require ('json-size');
 var parser = require('../parsers/namesParser');
+var coder = require('../coding/coding.js');
+
 
 router.get('/testniVnos', function(req, res) {
 	
@@ -70,6 +72,21 @@ router.get('/', function(req, res){
 		}
 		else
 		{
+			//kodirano
+			var numbers =[];
+			var jsonString = JSON.stringify(p);
+			for(let i = 0; i< jsonString.length; i++){
+				//console.log(jsonString[i].charCodeAt(0));
+				numbers.push(jsonString[i].charCodeAt(0));
+			}
+
+			//res.send(coder.code(numbers));
+
+
+
+
+
+            //nekodirano
 			res.json(p);
 		}
 	});
@@ -85,6 +102,7 @@ router.get('/:id', function(req, res){
 		}
 		else
 		{
+
 			res.json(p);
 		}
 	});

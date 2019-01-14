@@ -7,6 +7,7 @@ import { HttpModule } from '@angular/http';
 
 import { MyApp } from './app.component';
 import { LevelsPage } from '../pages/levels/levels';
+import { GamePage } from '../pages/Game/game';
 import { StatisticsPage } from '../pages/statistics/statistics';
 import { LoginPage } from '../pages/login/login';
 import { SignupPage } from '../pages/signup/signup';
@@ -32,6 +33,7 @@ import { BrowserAnimationsModule }  from '@angular/platform-browser/animations'
   declarations: [
     MyApp,
     LevelsPage,
+    GamePage,
     StatisticsPage,
     LoginPage,
     SignupPage,
@@ -57,6 +59,7 @@ import { BrowserAnimationsModule }  from '@angular/platform-browser/animations'
   entryComponents: [
     MyApp,
     LevelsPage,
+    GamePage,
     StatisticsPage,
     LoginPage,
     SignupPage,

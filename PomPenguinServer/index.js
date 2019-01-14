@@ -8,14 +8,14 @@ var app = express();
 
 
 //CORS
-
-/*var cors = require('cors');
+//odkomentiraj za delovanje na racunalniku preko brskalnika
+var cors = require('cors');
 var allowedOrigins = ['http://localhost:8100','http://localhost:3000',
                       'http://yourapp.com'];
 app.use(cors({
   credentials: true,
   origin: function(origin, callback){
-    // allow requests with no origin 
+    // allow requests with no origin
     // (like mobile apps or curl requests)
     if(!origin) return callback(null, true);
     if(allowedOrigins.indexOf(origin) === -1){
@@ -25,16 +25,17 @@ app.use(cors({
     }
     return callback(null, true);
   }
-}));*/
+}));
 
-var cors = require('cors');
-var allowedOrigins = ['http://localhost:8100','http://localhost:3000',
-                      'http://yourapp.com'];
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
+//odkomentiraj za delovanje na telefonu
+// var cors = require('cors');
+// var allowedOrigins = ['http://localhost:8100','http://localhost:3000',
+//                       'http://yourapp.com'];
+// app.use(function(req, res, next) {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//   next();
+// });
 
 
 //JWT

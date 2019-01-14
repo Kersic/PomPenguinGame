@@ -1,5 +1,7 @@
 import {Injectable} from '@angular/core'
 
+// MULTIMEDIJA
+
 @Injectable()
 export class Coding{
 
@@ -159,7 +161,7 @@ export class Coding{
           return parseInt(bitStr.substring(4), 2) - this.limits[j];
         }
         else{
-          console.log(bitStr.substring(4));
+          //console.log(bitStr.substring(4));
           return parseInt(bitStr.substring(4), 2) - 1;
         }
       }
@@ -218,7 +220,7 @@ export class Coding{
     }
 
 
-    return numbers.toString();
+    return numbers;
   }
 
 }
