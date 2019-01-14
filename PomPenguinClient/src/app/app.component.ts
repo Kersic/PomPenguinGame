@@ -9,6 +9,12 @@ import { LoginPage } from '../pages/login/login';
 import { Service } from '../services/penguin.service';
 import { Coding } from '../services/coding.service';
 
+//UNITY
+//import { UnityLoader } from '../Unity/Build/UnityLoader.js';
+//import { UnityProgress } from '../Unity/TemplateData/UnityProgress.js';
+declare var UnityLoader;
+declare var UnityProgress;
+
 @Component({
   templateUrl: 'app.html',
   providers: [
@@ -20,7 +26,17 @@ import { Coding } from '../services/coding.service';
 export class MyApp {
   rootPage:any = LoginPage;
 
+  public static activeInstance: MyApp;
+  public static UnityLoader: any;
+  public static UnityProgress: any;
+
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) { //, private screenOrientation: ScreenOrientation
+    platform.ready().then(() => {
+      MyApp.activeInstance = this;
+      MyApp.UnityLoader = UnityLoader;
+      MyApp.UnityProgress = UnityProgress;
+    });
+
     /*platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.

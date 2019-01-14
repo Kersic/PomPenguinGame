@@ -14,16 +14,16 @@ describe('Test casa enega polja', function () {
         idPingvina = 1;
         idProge = 10;
 
-       let pricakovano = {
-           vmesniCasi: [7.13, 14.26],
-           skupniCasProge: 14.25,
-           vmesniCekini: [6,11],
-           skupniCekini: 11,
-           vmesniTipiPodlage: ["1","1"],
-       };
+        let pricakovano = {
+            vmesniCasi: [7.13, 14.26],
+            skupniCasProge: 14.25,
+            vmesniCekini: [6,11],
+            skupniCekini: 11,
+            vmesniTipiPodlage: ["1","1"],
+        };
 
-       let vrnjeno = simulator.simulator(proga, sestavljenPingvin, tezavnost, idPingvina, idProge);
-       assert.equal(JSON.stringify(vrnjeno), JSON.stringify(pricakovano));
+        let vrnjeno = simulator.simulator(proga, sestavljenPingvin, tezavnost, idPingvina, idProge);
+        assert.equal(JSON.stringify(vrnjeno), JSON.stringify(pricakovano));
 
     });
     it('Javi napako ce je stevilo odsekov manjse od 2', function () {

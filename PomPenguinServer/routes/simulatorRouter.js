@@ -10,6 +10,7 @@ var sestavljeniPingvin = require('../models/constructed_penguin');
 var jwt = require('jsonwebtoken');
 var userModel = require('../models/userModel');
 var getHint = require('../simulators/hint');
+var coder = require('../coding/coding.js');
 
 router.get('/getPath', function(req, res) {
 	//pridobi prva dva odseka proge
@@ -231,8 +232,19 @@ router.get('/getStatistics',  function(req, res) {
 					}
 				});
 			}
-			//console.log(vsaStatistika);
-			res.json(vsaStatistika);
+			//kodriana statistika MULTIMEDIJA
+
+            var numbers =[];
+            var jsonString = JSON.stringify(vsaStatistika);
+            for(let i = 0; i< jsonString.length; i++){
+                //console.log(jsonString[i].charCodeAt(0));
+                numbers.push(jsonString[i].charCodeAt(0));
+            }
+
+            res.send(coder.code(numbers));
+
+			//nekodirana statistika:
+			//res.json(vsaStatistika);
 		}
 	});
 
