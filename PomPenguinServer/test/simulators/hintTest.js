@@ -27,13 +27,6 @@ describe('Test predlaganja nakupa', function () {
         var izhod = hint.getHint(uporabnik, pingviniArray);
         assert.equal(izhod, expected);
     });
-    it('Test sistema Hint #4', function () {
-        pingviniArray = [{"_id": {"$oid": "5b1c20db8377252264574b29"}, "speed": {"run": 0.2, "slide": 0.4, "swim": 0.4}, "name": "Pingo", "color": "blue", "baseSpeed": 20, "penguinCost": 0, "__v": 0}, {"_id": {"$oid": "5b1c211d8377252264574b2a"}, "speed": {"run": 0.2, "slide": 0.5, "swim": 0.4}, "name": "Alex", "color": "gray", "baseSpeed": 20, "penguinCost": 100, "__v": 0},{"_id": {"$oid": "5b1c21528377252264574b2b"}, "speed": {"run": 0.3, "slide": 0.4, "swim": 0.5}, "name": "Rico", "color": "red", "baseSpeed": 20, "penguinCost": 200, "__v": 0},{"_id": {"$oid": "5b1c22558377252264574b2d"}, "speed": {"run": 0.2, "slide": 0.5, "swim": 0.6}, "name": "Fred", "color": "yellow", "baseSpeed": 20, "penguinCost": 300, "__v": 0},{"_id": {"$oid": "5b1c22a08377252264574b2f"}, "speed": {"run": 0.4, "slide": 0.7, "swim": 0.5}, "name": "Kowalski", "color": "orange", "baseSpeed": 20, "penguinCost": 500, "__v": 0}];
-        uporabnik = {"_id": {"$oid": "5b1fac50f8b36d07d4d5a4fb"},"selectedImprovements": [{"snowLevel": 0, "iceLevel": 0, "waterLevel": 0}], "boughtPenguins": 0, "boughtImprovements": [{"snowLevel": 0, "iceLevel": 0, "waterLevel": 0}, {"snowLevel": 0, "iceLevel": 0, "waterLevel": 3}], "email": "klancar.luka@gmail.com", "username": "Luka", "password": "$2b$10$l9pQD0WJ3Euv2jPxWkznOudXgO4GlfXAN7EJSmfQMKhY5MMjwU.xG", "coins": 1000, "selectedPenguin_id": "5b1c20db8377252264574b29", "__v": 5};
-        var expected = "Ker lahko kupiš boljšega priporočamo da kupiš pingvina z imenom Kowalski\n" + " in izboljšaš:\n" + "-Sneg:undefinedx\n" + "-Voda:undefinedx\n" + "-Led:undefinedx";
-        var izhod = hint.getHint(uporabnik, pingviniArray);
-        assert.equal(izhod, expected);
-    });
     it('Javi napako ce je vnos uporabnika prazen ', function () {
         let expected = Error;
         const actual = () => hint.getHint([], pingviniArray);

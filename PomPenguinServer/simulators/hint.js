@@ -81,6 +81,9 @@ module.exports = {
 		//-----------------------------INICIALIZACIJA-----------------------------//
 		//console.log(user);
 		//console.log(vsiPingvini);
+        if(user == [] ||vsiPingvini == []){
+            throw new Error('iz podanih parametrov ni mogoce zagnati sistema Hint');
+        }
 		var kupljeniPingvini=[];
 		var kupjeneIzboljsave=[];
 		var vsiPingviniArray=[];
@@ -99,14 +102,14 @@ module.exports = {
 			for(var j = 0; j<kupljeniPingvini.length;j++){
 				if(kupljeniPingvini[j]+"" == vsiPingviniArray[i]._id+""){
 					hitrost = [vsiPingviniArray[i].speed.run,vsiPingviniArray[i].speed.swim,vsiPingviniArray[i].speed.slide];
-					
+
 					vsiPingviniArray[i] = {kupljeno:"KUPLJENO"};
 					najboljsi = i;
 				}
 			}
 		}
 		var trenutniLiveli=[];
-		
+
 		for(var i=0;i<kupjeneIzboljsave.length;i++){
 			trenutniLiveli=kupjeneIzboljsave[i];
 		}
@@ -120,7 +123,7 @@ module.exports = {
 				var tmp = izboljsava;
 				izboljsava=izboljsave(cekiniPoIzboljsavi,izboljsava,hitrost,0);
 				cekiniPoIzboljsavi -= razlika(tmp,izboljsava);
-			}	
+			}
 			izhod += "Ker imaš že najboljšega pingvina ga le izboljšaj:\n-Sneg:"+izboljsava[0]+"x\n-Voda:"+izboljsava[1]+"x\n-Led:"+izboljsava[2]+"x";
 		}else if((izbrani = boljsiPingvinLahkoKupim(cekini,vsiPingviniArray,najboljsi))>0){	//lahko kupimo boljsega pingvina
 			cekiniPoIzboljsavi -= vsiPingviniArray[izbrani].penguinCost;
@@ -135,11 +138,11 @@ module.exports = {
 				izhod += "\n in izboljšaš:\n-Sneg:"+izboljsava[0]+"x\n-Voda:"+izboljsava[1]+"x\n-Led:"+izboljsava[2]+"x";
 			}
 		}else{																	//lahko le izbolšamo trenutnega pingvina
-			while(cekiniPoIzboljsavi>minZaIzboljsavo(izboljsava,hitrost)){	
+			while(cekiniPoIzboljsavi>minZaIzboljsavo(izboljsava,hitrost)){
 				var tmp = izboljsava;
 				izboljsava=izboljsave(cekiniPoIzboljsavi,izboljsava,hitrost,0);
 				cekiniPoIzboljsavi -= razlika(tmp,izboljsava);
-			}	
+			}
 			if(izboljsava==trenutniLiveli){
 				izhod += "Nimaš zadosti cekinov za nadgradnjo.";
 			}else{

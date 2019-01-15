@@ -32,6 +32,9 @@ module.exports = {
 		var cekini = ({
 			vsota: 0,
 		});
+		if(proga.sectionCounter < 2 || tezavnost < 0 || tezavnost > 2){
+            throw new Error('iz podanih parametrov ni mogoce zagnati simulatorja');
+        }
 		var trenutnaPozicija;
 		var vmesniCasi=[];
 		var vmesniCekini=[];

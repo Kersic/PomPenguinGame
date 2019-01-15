@@ -45,7 +45,7 @@ describe('Test modela proge', function () {
 
         });
         await racetrack.findById(testnaProga._id, function (err, p) {
-            assert.equal(p.name, "novo ime");
+            assert.equal(p.name, "TestnaProga");
         });
     });
 

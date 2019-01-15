@@ -37,7 +37,7 @@ describe('test_pingvina', function(){
 
     it('Spremeni atribut pingvina', async function(){
 
-        var newColor = 'blue';
+        var newColor = 'red';
         await penguin.findOneAndUpdate({'_id':testniPingvin._id},{'color':newColor},{upsert:true}, function(err, res){});
 
         await penguin.findById(testniPingvin._id, function(err, res){
