@@ -147,6 +147,18 @@ function decodeAbsoluteValue(bitStr){
 
 /////////////////////////////////////////////////////////////
 module.exports = {
+
+    getDifferences: getDifferences,
+    codeDifferences : codeDifferences,
+    codeRepeat: codeRepeat,
+    absuluteDifferences: absuluteDifferences,
+    codeFirstValue: codeFirstValue,
+
+    decodeDifference: decodeDifference,
+    decodeRepeat: decodeRepeat,
+    decodeAbsoluteValue: decodeAbsoluteValue,
+    decodeFirstValue: decodeFirstValue,
+
     code: function (numbers) {
         let differences = getDifferences(numbers);
         let input_bits = "";
