@@ -31,13 +31,13 @@ export class StatisticsPage {
 
      //kodirano MULTIMEDIJA
     this.service.getCodedService('/simulator','/getStatistics').subscribe(response => {
-      console.log(response['_body']);
+      //console.log(response['_body']);
       var decoded = this.coding.decode(response['_body']);
       var jsonString = "";
       for(let i = 0; i < decoded.length; i++){
            jsonString+=(String.fromCharCode(decoded[i]));
       }
-      this.statistikaPodatki = JSON.parse(jsonString);;
+      this.statistikaPodatki = JSON.parse(jsonString);
     });
 
   }

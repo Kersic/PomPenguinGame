@@ -7,7 +7,61 @@ var racetrackGenerator = require('../generators/racetrackGenerator');
 var  jsonSize = require ('json-size');
 var parser = require('../parsers/namesParser');
 var coder = require('../coding/coding.js');
+var gameData = require('../models/GamaData');
+var userModel = require('../models/userModel');
+var jwt = require('jsonwebtoken');
 
+function GameData() {
+    this.level = 1;
+    this.hitrostVoda = 7;
+    this.hitrostSneg = 7;
+    this.hitrostLed = 7;
+    this.color = "black";
+}
+
+router.get('/gameData', function(req, res)
+{
+
+    userModel.authenticate("Tadeja", "1234", function (error, user) {
+        if (!user) {
+            res.json({message:'Wrong username or password'});
+        }
+        else if(error ){
+            console.log(error);
+            res.json({message:'Connection faled'});
+        }else {
+
+            jwt.sign({user: user}, 'mafiluta', {expiresIn: '2 days'}, (err, token) =>{
+
+
+                        var gd = new gameData();
+                        gd.level = 3;
+                        gd.water = 7;
+                        gd.snow = 7;
+                        gd.ice = 7;
+                        gd.token = "test";
+                        gd.color = "blue";
+
+
+                        return res.send(JSON.stringify(gd));
+            });
+
+        }
+    });
+
+});
+
+router.post('/gameData', function(req, res)
+{
+    // parser.getRaceTracks(function(names){
+    //     var gd = new GameData();
+    //     gd.level = 1;
+    //     gd.hitrostiPingvina = [3,3,3];
+    //     gd.color = "blue";
+	//
+    //     return res.send(JSON.stringify(gd));
+    // });
+});
 
 router.get('/testniVnos', function(req, res) {
 	
@@ -52,6 +106,7 @@ router.get('/names', function(req, res)
 		return res.send(names);
 	});
 });
+
 
 ///////////////////////////////////////
 

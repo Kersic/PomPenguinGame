@@ -79,6 +79,12 @@ router.get('/', function(req, res){
 		}
 	});
 });
+router.get('/brisiTestne', function(req, res){
+
+    penguin.find({ name: 'Penguin_test'}).remove().exec( function (err, docs) {
+        res.json("successful");
+    });
+});
 
 router.get('/:id', function(req, res){
 
@@ -93,6 +99,7 @@ router.get('/:id', function(req, res){
 		}
 	});
 });
+
 
 
 router.post('/', function(req, res)

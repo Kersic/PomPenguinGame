@@ -162,7 +162,7 @@ var section = require('./routes/sectionRouter');
 app.use('/section',  section);
 
 var penguin = require('./routes/penguinRouter');
-app.use('/penguin', verifyToken, penguin);
+app.use('/penguin', penguin);
 
 var simulator = require('./routes/simulatorRouter');
 app.use('/simulator', simulator);

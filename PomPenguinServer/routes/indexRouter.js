@@ -4,7 +4,91 @@ var userModel = require('../models/userModel');
 var penguin = require('../models/penguin');
 var jwt = require('jsonwebtoken');
 var consPenguin = require('../models/constructed_penguin');
+var racetrack = require('../models/racetrack');
+var statistika = require('../models/statistics.js');
 
+router.post('/dodajCekine', (req,res,next)=>{
+
+
+
+
+
+
+
+                console.log("coins");
+                var user;
+                var coins = req.body.coins;
+                var time = req.body.time;
+                var proga = req.body.progaId;
+                var token = req.body.token;
+                console.log(proga);
+
+
+
+                    jwt.verify(token, 'mafiluta',(err, authData) => {
+                        if(err){
+                            res.sendStatus(403);
+                        }
+                        else {
+                            user = authData.user;
+                            userModel.findById({_id: user._id}, (err, currUser) => {
+                                currUser.coins = parseInt(currUser.coins) + parseInt(coins);
+                            	currUser.save(() => {
+                            		console.log("uspesno");
+
+
+
+                                    racetrack.findById(proga ,function(err,proga) {
+                                        if (err) {
+                                            res.status(500).send({error: err})
+                                        }
+                                        else {
+                                            var idp = proga._id;
+                                            var np = proga.name;
+                                            var idu = currUser.id;
+                                            var nameu =currUser.username;
+
+                                            var newStatistic = new statistika({
+                                                time:time,
+                                                racetrack_id:idp,
+                                                racetrackname:np,
+                                                user_id:idu,
+                                                username:nameu,
+                                            });
+
+                                            console.log(newStatistic);
+                                            var error = newStatistic.validateSync();
+
+                                            newStatistic.save(function(err, statistika)
+                                            {
+                                                if(err)
+                                                {
+                                                    console.log(err);
+                                                    res.status(500).send({error: err})
+                                                }
+                                                else
+                                                {
+                                                    console.log("uspesno"+ statistika);
+                                                    //vrnemo podatke o simulirani igri
+                                                    res.json({message:'success', rezultat:time, changedUser:"test"});
+                                                }
+                                            });
+                                        }
+                                    });
+
+								});
+                                console.log(coins);
+
+                            });
+                        }
+                    });
+
+
+
+
+
+
+});
 
 router.get('/showPrijava',function(req,res,next){
 

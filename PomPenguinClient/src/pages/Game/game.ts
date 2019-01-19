@@ -15,9 +15,10 @@ import {MyApp} from "../../app/app.component";
 export class GamePage {
   public static activeInstance:GamePage;
   gameInstance: any;
+  izbranLevelName:any;
   constructor( public navCtrl: NavController) {
     GamePage.activeInstance = this;
-
+    this.izbranLevelName = window.localStorage.selectedLevelName;
   }
 
   ionViewDidLoad() {

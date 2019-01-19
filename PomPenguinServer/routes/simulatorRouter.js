@@ -147,7 +147,6 @@ router.get('/:idProge/:idPingvina/:tezavnost', function(req, res) {
 													}
 												});
 
-												
 											}
 										}); 
 

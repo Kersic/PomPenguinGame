@@ -51,4 +51,10 @@ describe('test_pingvina', function(){
             assert.equal(res,null);
         });
     });
+
+    it('Zbrisi vse pingvine', async function(){
+        penguin.find({name: "Penguin_test"}).then(function (p) {
+            
+        });
+    });
 });
