@@ -1,4 +1,9 @@
-# PomPenguin
+# PomPenguin Game
+
+Menu:Ionic
+Game: Unity
+Backend: Node.js
+Database: MongoDB
 
 <p>Video: https://github.com/Kersic/PomPenguinGame/blob/master/Media2.mp4?raw=true</p>
 
