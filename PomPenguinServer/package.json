@@ -29,7 +29,7 @@
     "json-size": "^1.0.0",
     "jsonwebtoken": "^8.2.2",
     "mocha": "^5.2.0",
-    "mongoose": "^5.0.12",
+    "mongoose": "^5.7.5",
     "nodemon": "^1.18.5",
     "request": "^2.88.0"
   }
