@@ -14,7 +14,7 @@
   "dependencies": {
     "@angular/animations": "^6.0.4",
     "async": "^2.6.0",
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.2",
     "chai": "^4.2.0",
     "chai-http": "^4.2.0",
